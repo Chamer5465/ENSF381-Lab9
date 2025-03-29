@@ -92,8 +92,8 @@ function HousePricePredictor() {
                 <br/>
                 <select className="predict-input" id="furnishing" onChange={(e) => setFurnishing(e.target.value)} required>
                     <option value="Furnashed">Furnished</option>
-                    <option value="Partially Furnashed">Partially Furnashed</option>
-                    <option value="Unfurnashed">Unfurnashed</option>
+                    <option value="Partially Furnished">Partially Furnished</option>
+                    <option value="Unfurnished">Unfurnished</option>
                 </select>
                 <br/>
                 <label for="smoking">Smoking:</label>
